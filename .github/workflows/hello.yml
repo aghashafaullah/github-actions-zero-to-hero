@@ -19,5 +19,5 @@ jobs:
         run: echo "Hello."
 
       - name: say hello to username
-        run: echo "Hello $USER"
+        run: echo "Hello ${{ github.actor }}"
         
